@@ -1,4 +1,4 @@
-FROM rocker/hadleyverse
+FROM rocker/tidyverse:latest
 
 RUN apt-get update && \
     apt-get install -y imagemagick libudunits2-dev
